@@ -11,7 +11,7 @@ VALUES	('08/7888888','José Eduardo','Romerales Pinto','C/ Azorín, 34 3o','Mós
 
 /*	Tuve que utilizar este comanto para comprobar el error 207 en el segundo insert,
 	lo consegui arreglar actualizando el nombre de una columna;
-	SELECT name FROM sys.columns WHERE object_id = OBJECT_ID('hospital.Pacientes');*/
+	SELECT name FROM sys.columns WHERE object_id = OBJECT_ID('hospital.Pacientes'); */
 
 INSERT INTO [hospital].[Ingresos] (NumHistorial,Fecha_Ingreso,CodID,NumPlanta,NumCama,Alergico,Observaciones)
 VALUES	('10203-F','23/01/2009','AJH',5,121,'No','Epiléptico'),
