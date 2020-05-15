@@ -33,7 +33,8 @@ BEGIN
 	SELECT @Result =	COUNT(NumHistorial)
 						FROM [hospital].[Pacientes]
 						WHERE Sexo = @p1
-
+	/* Mediante este codigo podremos contar ell numero de pacientes introduciendo 
+	si queremos que cuente a los Hombres(H) o a las Mujeres(M) */
 	-- Return the result of the function
 	RETURN @Result
 
